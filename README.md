@@ -5,12 +5,12 @@ The following Assignments require us to Create two CNN (Convolutional Neural Net
 
 •	MNIST – A database of handwritten digits with labels from 0 to 9 (10 classes) each with a size 28x28.
 
-  ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/1a521baf-ec61-4d50-a219-0fa1f6f0d27f)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/b6ff077b-87bd-4866-9b39-2f82276869a0)
 
 
 •	CIFAR-10 – A computer-vision-based dataset with 10 different objects (car, airplane, cat, etc,) with each image of size 32x32.
 
- ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/43394bdf-517e-4118-8de3-9bcb9552d50c)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/0563ae7d-6115-4973-a8e0-3e7d5e723f02)
 
 Both these datasets demand a multiclass neural network that can correctly identify among the 10 classes.
 
@@ -27,7 +27,7 @@ Data collection
 We can visualize the first few images as follows.
 
 
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/550ee9d3-1b75-4f91-a5f1-1d8be0cc8988)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/92e1ec1c-e81c-4e83-8902-b4dc5a90f0b8)
 
 
 
@@ -41,7 +41,7 @@ We can visualize the first few images as follows.
 CNN ARCHITECTURE
 
 
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/1bbf313e-568d-4f2a-86a9-72d04bb40d7e)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/2274b3db-70a8-4dc8-afbc-d87751407f8a)
 
 Our CNN Architecture is as follows- 
 •	Here we have 32 3x3 filters followed by BatchNormalization, 2x2 MaxPooling and a Dropout Layer. (Conv. Is described by yellow colour).
@@ -74,7 +74,7 @@ ADDITIONAL PARAMETERS
 
 Each model layer is defined using model.summary()
 
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/6c5de5ad-f496-4b1f-a7ef-767f7cb784bc)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/67d7b61f-3337-44a6-bd4d-bc2e0b38e2a0)
 
 
  
@@ -86,17 +86,17 @@ TESTING
 
 A few examples of testing are as follows-
 
-  ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/d10c931d-21c2-47ed-b184-9463f13e65f9)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/2b96b775-0ad1-46f5-a94a-f5d98a7fa3c6)
 
-  ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/b5fe5b59-567f-4ffb-90c2-44869222904d)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/1c8b8294-dc5c-4480-b9c8-44dd1d4780bc)
 
-  ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/d4de7220-fbef-45c2-9467-acc496258e70)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/979d7665-8eff-4da6-8f2c-8cd109e159d9)
 
-  ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/ec5d2da3-b109-4726-ace8-025d1a0f1dc8)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/69ec83e1-160b-4e73-98aa-d01d93230079)
 
-  ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/dce8500e-b38d-47e0-a793-c5e783c1266d)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/797390ff-cf60-4a89-8cad-7aa0198f9d63)
   
-  ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/182f214d-6ebd-419c-afd7-0bd11ffb8a4a)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/b1c79fb4-cf83-4cc8-a0e7-3a0b0975ec7e)
 
 
 
@@ -128,7 +128,7 @@ We can visualize the first few images as follows:
 
  
 
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/971cb74b-bafb-438b-9e11-b036af1e953f)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/c3d8e718-38f3-4694-8a4f-c5e99b91d91c)
 
 
 
@@ -145,7 +145,7 @@ We can visualize the first few images as follows:
 
 CNN ARCHITECTURE
 
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/92fcc2a0-253f-44d1-8c2e-9341044f11e4)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/583c3cc6-b405-494d-8519-ca95672d857b)
 
  
 •	Here, our architecture is much more complex than the previous one where we apply Double convolution of 32 3x3, 64 3x3, and 128 3x3 filters respectively. (Conv. Is described in yellow color).
@@ -175,7 +175,7 @@ ADDITIONAL PARAMETERS
 DATA AUGMENTATION
 
 
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/2f9d91e8-1aac-48f0-ae11-eba09c353b40)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/d66c05d9-cfd2-4dc4-9c33-58394dcd5965)
 
 1.	This turned out to be a crucial part of developing this model as it helped us generalize the data as we were initially struggling with the problem of overfitting.
 2.	We considered the fact that in terms of vision, an object when looked at from a different perspective would still be considered the same object (AN image of a car zoomed in slightly or flipped horizontally would still be considered a car)
@@ -197,7 +197,7 @@ DATA AUGMENTATION
 The model layer is defined by model.summary()
 
 
- ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/23f9c849-0250-49cd-9845-1245311bd5de)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/80981e61-cf40-440c-bd06-c0c1e604c3a2)
 
 
 
@@ -207,7 +207,7 @@ The model layer is defined by model.summary()
 TESTING
 We use the following code to verify our model for a given input-
 
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/22615fb6-fed4-4725-9e7b-b2c5db7e674c)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/d2c3f417-d078-4390-833c-c1f41fb3aae4)
 
 
 
@@ -220,20 +220,20 @@ We use the following code to verify our model for a given input-
 We test our code with the following inputs-
 1.
 
- ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/e54d10ce-f3d1-4b1b-98b4-2be6b6271a6c)
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/d0572c8f-272b-4d43-a8be-fc6a872d998b)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/f699a4b9-49cf-4ef4-9201-0eb23c6e64d5)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/7c1e5e2c-4a7c-4821-aacd-6b456f45f255)
 
 
 
  
 2.
- ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/e64c831e-62de-4d6f-a4ac-b0baeb319efb)
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/68c45331-3da6-4641-bb3d-661c7fc1f1fa)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/25bd0dbf-d50e-426b-b2ca-99ab536b8e9c)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/113edcef-4a28-4ff7-8caa-12f12a82a611)
 
 
  
 3.
- ![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/8de8ab3a-d89c-4c1c-8cf7-f3447c89ab18)
-![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/bb03dfe9-6dbb-46e8-be4c-808fda243a60)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/bb72c319-54a6-4127-990e-1e1366598715)
+![image](https://github.com/aakarsh31/Neural-Networks-Assignment/assets/89195418/33b25fc0-6ce6-4718-bb38-e1b74d95db92)
 
 
